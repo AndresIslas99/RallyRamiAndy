@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">RallyRamiAndy</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ToDoList_1">To Do List</string>
+    <string name="TuNombre_1">\"Tu Nombre: Millas Morales\"</string>
+    <string name="UserToDoListText">Nombre To Do List</string>
+    <string name="TitleTaskText">TituloMiky</string>
+    <string name="DesciptionText_2">"Describe Miky. Tipo todo lo que vas a hacer, va? Que lo leas y digas, ah ps si vea "</string>
+    <string name="DescriptionText_222">Decibe Miky</string>
+</resources>

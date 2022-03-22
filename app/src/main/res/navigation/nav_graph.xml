@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/inicioFragment">
+
+    <fragment
+        android:id="@+id/capturaFragment"
+        android:name="com.example.rallyramiandy.capturaFragment"
+        android:label="fragment_captura"
+        tools:layout="@layout/fragment_captura" >
+        <action
+            android:id="@+id/action_capturaFragment_to_listoFragment"
+            app:destination="@id/listoFragment" />
+        <argument
+            android:name="nombra"
+            app:argType="string"
+            android:defaultValue="User" />
+    </fragment>
+    <fragment
+        android:id="@+id/inicioFragment"
+        android:name="com.example.rallyramiandy.inicioFragment"
+        android:label="fragment_inicio"
+        tools:layout="@layout/fragment_inicio" >
+        <action
+            android:id="@+id/action_inicioFragment_to_capturaFragment"
+            app:destination="@id/capturaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/listoFragment"
+        android:name="com.example.rallyramiandy.listoFragment"
+        android:label="fragment_listo"
+        tools:layout="@layout/fragment_listo" />
+</navigation>
